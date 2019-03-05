@@ -15,7 +15,7 @@ class Article extends Component{
 
     <h2>
       {article.title}
-      <button onClick={this.handleClick}>{this.state.isOpen ? 'closse' : 'open'}</button>
+      <button onClick={this.handleClick}>{this.state.isOpen ? 'close' : 'open'}</button>
     </h2>
 
     {body}
